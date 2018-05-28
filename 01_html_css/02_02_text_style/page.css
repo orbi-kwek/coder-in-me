@@ -1,6 +1,7 @@
 /*Imports font from https://fonts.google.com/*/
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato');
 
+
 /*1. make the background color dark gray: #212121*/
 /*2. change the font family to: 'lato'*/
 .my-body{
@@ -45,4 +46,9 @@
 	color: orangered*/
 .my-strong{
 	text-shadow: 2px 2px 0 orangered;
+}
+
+body{
+
+	color: white;
 }
