@@ -45,5 +45,5 @@ margin-top: -100px;
 /*stripe generator: http://www.stripegenerator.com/*/
 /*7. set background image as: stripe_background.png*/
 .my-body{
-	
+	background-image: url(stripe_background.png)
 }
