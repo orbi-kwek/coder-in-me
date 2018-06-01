@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand|Roboto');
+
+.body{
+    background-image: url(https://i.pinimg.com/originals/0b/e3/18/0be318819667d280af948a6a76f24cd7.png);
+     
+    
+}
+
+.picture1{
+    background-image: url(http://cdn1.sciencefiction.com/wp-content/uploads/2017/09/Wonder-Woman.jpg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: top;
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.overall{
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid transparent;
+    margin: 100px auto;
+
+}
+p{
+    padding: 20px;
+    text-align: left;
+    font-family: 'roboto';
+}
+
+h1{
+    font-family: 'quicksand';
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-family: 'quicksand';
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+hr{
+    height: 10px;
+    width: 40%;
+    background-color: black;
+    outline: none;
+    margin-top: -1rem;
+}
+
+table{
+    font-family: 'roboto';
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.table-header{
+    font-weight: 300;
+
+}
+.form{
+    margin: auto;
+    font-family: 'quicksand';
+    padding: 20px;
+    max-width: 400px;
+}
+.form-group{
+    margin: 20px auto;
+}
+label{
+    font-size: 1.5rem;
+}
+input[type]{
+    -webkit-appearance: none;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+input[type=text],
+input[type=email]{
+    border: none;
+    border-bottom:1px solid palevioletred;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 2rem;
+}
+
+

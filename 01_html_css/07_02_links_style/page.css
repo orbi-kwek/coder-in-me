@@ -54,3 +54,7 @@
 .my-link:visited{
 	color:slateblue;
 }
+
+.submit{
+	align-content: right;
+}
