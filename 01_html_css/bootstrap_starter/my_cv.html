@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--use this for responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Walkthrough</title>
+
+    
 
     <!-- default bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -12,7 +16,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
     <link rel="stylesheet" type="text/css" href="theme4.css">
-
+    <link rel="stylesheet" href="custom.css">
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     
@@ -20,14 +24,208 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     
     <!-- use this style for testing and development purposes -->
-    <!-- <style type="text/css">
+    <!--<style type="text/css">
     .container{border: 2px dotted green;}
     .row{border: 1px dotted red;}
-    .row [class*=' col-']{border: 2px dotted purple;}
-    </style> -->
+    .row [class*='col-']{border: 1px dotted white;}
+    </style>-->
     
 </head>
 <body>
+    <div class="container">
+<!--row 1-->        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1 class="general">Hello, world!</h1>
+                    <p class="general">Coder Angela is coming</p>
+                    <p>
+                        <a class="btn btn-primary btn-md" href="http://google.com" role="button">
+                           Muahahhaa</a>
+                    </p>
+                </div>
+            </div>
 
+        </div>
+
+<!--row 2-->        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://pbs.twimg.com/profile_images/2419864731/n7yu22n2hddie2c212tn_400x400.jpeg" alt="">
+                    <div class="caption">
+                        <h3>Cellist</h3>
+                        <p>lorem lorem</p>
+                        <p>
+                            <a class="btn btn-primary btn-md" href="http://google.com">
+                            See more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                     <img src="http://jerrysmusic.com/media/catalog/category/flute_1.png" alt="">  
+                    <div class="caption">
+                        <h3>Flautist</h3>
+                        <p>lorem lorem</p>
+                        <p>
+                            <a class="btn btn-primary btn-md" href="http://google.com">
+                            See more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://cdn.lessons.com/profile-pro/57c48059a4e2794eca67a8a9_profile.jpg" alt="">
+                    <div class="caption">
+                        <h3>Pianist</h3>
+                        <p>lorem lorem</p>
+                        <p>
+                            <a class="btn btn-primary btn-md" href="http://google.com">
+                            See more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--row 3-->        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/wZtfDxxYxnM"></iframe>
+                </div>
+            </div>
+        </div>
+
+<!--row 4-->        
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact me</h3>
+
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <div class="radio"> <!--radio need to have the same name!-->
+                            <label for="">
+                                <input type="radio" name="radio" id="radio1">
+                                Send me newsletter :)
+                            </label>
+                        </div>   
+                        <div class="radio">
+                            <label for="">
+                                <input type="radio" name="radio" id="radio2">
+                                Do not send me newsletter :(
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input type="button" class="btn btn-danger" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h3>About me</h3>
+                <hr>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, eligendi qui debitis rerum, eos veritatis deserunt officia, quam sed dolorum cumque. Facere reprehenderit vitae officiis totam alias iusto? Quisquam, beatae.
+                </p>
+                
+            </div>
+        </div>
+
+<!--row 5-->        
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Working hours</h3>
+
+                <table class="table">
+
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday - Thursday</td>
+                        <td>9am - 5pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday & Saturday</td>
+                        <td>9am - 3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>12pm - 3pm</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="col-md-4">
+                    <h3>Find me</h3>
+                    <div class="list-group">
+                        <a href="tel:12345678" class="list-group-item">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            +65 1234 5678
+                        </a>
+                        <a href="mailto:12345678@email.com" class="list-group-item">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            12345678@email.com
+                        </a>
+                    </div>
+                </div>     
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3 map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7945178937484!2d103.78528081475395!3d1.2980111990532837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fe5a3c281%3A0x1d0bd1e8e865c603!2sStackUp+Studio!5e0!3m2!1sen!2ssg!4v1527912926240" 
+                    class="embed-responsive-item"></iframe>
+                </div>
+            </div>
+                           
+        </div>
+
+<!--row 6-->        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline list">
+                    <li>
+                        <a href="http://facebook.com">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com"></a>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com"></a>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <a href="http://snapchat.com"></a>
+                            <i class="fa fa-snapchat" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+
+    </div>
 </body>
 </html>
