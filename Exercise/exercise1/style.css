@@ -2,7 +2,7 @@
 
 .body{
     background-image: url(https://i.pinimg.com/originals/0b/e3/18/0be318819667d280af948a6a76f24cd7.png);
-     
+    background-attachment: fixed;
     
 }
 
@@ -97,4 +97,10 @@ input[type=submit]{
     height: 2rem;
 }
 
+.tel{
+    text-align: center;
+    font-family: 'roboto';
+    text-decoration: none;
+    color: goldenrod;
+}
 

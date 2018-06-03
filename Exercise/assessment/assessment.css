@@ -1,0 +1,9 @@
+.jumbotron{
+    margin: 20px 0px;
+    background-image: url(https://www.freewebheaders.com/wordpress/wp-content/gallery/high-tech-designs/hi-tech-concepts-on-blue-background-header.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
